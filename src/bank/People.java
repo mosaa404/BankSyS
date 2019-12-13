@@ -9,7 +9,7 @@ public class People {
     Scanner input = new Scanner(System.in);
 
     People() throws IOException {
-
+        //Nothing For What!
     }
 
     //DB Configuration
@@ -28,9 +28,7 @@ public class People {
         State.executeUpdate(query);
         if (Cursor != null) {
             System.out.println("Changing Balance");
-
         }
-
     }
 
     //DB Close connection
@@ -59,7 +57,6 @@ public class People {
         } else {
             return null;
         }
-
     }
 
     public boolean login(String Email, String Password) throws SQLException {
